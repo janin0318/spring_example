@@ -22,7 +22,7 @@ public class BlogController {
     return "blog/create";
   }
 
-  @GetMapping("/{blogId}}")
+  @GetMapping("/{blogId}")
   public String show(@PathVariable int blogId) {
     return "blog/show";
   }
